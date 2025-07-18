@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+}
+.title{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    margin-top: 10%;
+}
+.subtitle {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.dates {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.dates ul li{
+    margin-top: 52px;
+}
+.changes {
+    margin-left: -2.2%;
+    margin-right: 20%;
+    align-items: center;
+}
+.changes ul li{
+    margin-top: 20px;
+    align-items: center;
+}
+.changes ul li::marker{
+    font-size: 50px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #999;
+}
